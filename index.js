@@ -41,3 +41,15 @@ countop(5,10);
 countop(-10,10);
  
 
+//создать отчет 
+function countdown(a,b){
+    let countdown = a;
+    while( countdown >= b){
+        console.log(countdown);
+        countdown--; 
+    }
+ 
+} 
+countdown(10,5);
+countdown(10, -10);
+
