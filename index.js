@@ -25,3 +25,5 @@ function  number(v){
 
 }
 number( "tea");
+number (6);
+number (3);
