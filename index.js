@@ -27,3 +27,17 @@ function  number(v){
 number( "tea");
 number (6);
 number (3);
+
+
+//от 5 до 10 и от - 10 до 10 создать цикл
+function countop (a,b){
+  let countop = a;
+  while (countop <= b ){
+    console.log (countop);
+    countop++;
+  }
+}  
+countop(5,10);
+countop(-10,10);
+ 
+
