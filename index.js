@@ -70,13 +70,17 @@ function count(a, b) {
     else {
         countdown(a, b);
     }
-   
-}
-count(5,10);
 
-let names = [ "Aidai" , "Bakyt" , "Joldosh"];
-console.log (names);
-console.log(names[0]);
-console.log(names[1]);
-console.log(names[2]); 
+}
+count(5, 10);
+
+//массивы
+let names = ["Aidai", "Bakyt", "Joldosh"];
+for (let i = 0; i <= names.length; i++) {
+    console.log(" my name is " + names[i]);
+}
+
+
+//вывести имена наоборот
+let 
 
