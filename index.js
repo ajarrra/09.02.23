@@ -82,5 +82,13 @@ for (let i = 0; i <= names.length; i++) {
 
 
 //вывести имена наоборот
-let 
+for(i = names.length -1 ; i >= 0 ; i--){
+  console.log("my name is " + names[i]);
+}
+
+//Aiday - 5
+//Bakyt - 5
+//Joldosh - 7
+
+
 
