@@ -90,7 +90,7 @@ for(i = names.length -1 ; i >= 0 ; i--){
 //Bakyt - 5
 //Joldosh - 7
 
-//вывести длину имени
+//вывести длину имени(кол-во букв )
 for( i = 0; i < names.length ;i++){
     console.log(names[i].length);
 }
