@@ -96,4 +96,14 @@ for( i = 0; i < names.length ;i++){
 }
 
 
+//выводит длинну всех имен в массиве
+
+let result = "";
+for( let i = 0; i < names.length ;i++){
+    result = result + names[i]
+}
+console.log(result.length);
+
+
+
 
