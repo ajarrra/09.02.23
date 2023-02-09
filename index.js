@@ -43,10 +43,10 @@ countop(-10,10);
 
 //создать отчет 
 function countdown(a,b){
-    let countdown = a;
-    while( countdown >= b){
-        console.log(countdown);
-        countdown--; 
+    let num = a;
+    while( num >= b){
+        console.log(num);
+        num--; 
     }
  
 } 
