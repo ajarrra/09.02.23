@@ -82,8 +82,8 @@ for (let i = 0; i <= names.length; i++) {
 
 
 //вывести имена наоборот
-for(i = names.length -1 ; i >= 0 ; i--){
-  console.log("my name is " + names[i]);
+for (i = names.length - 1; i >= 0; i--) {
+    console.log("my name is " + names[i]);
 }
 
 //Aiday - 5
@@ -91,7 +91,7 @@ for(i = names.length -1 ; i >= 0 ; i--){
 //Joldosh - 7
 
 //вывести длину имени(кол-во букв )
-for( i = 0; i < names.length ;i++){
+for (i = 0; i < names.length; i++) {
     console.log(names[i].length);
 }
 
@@ -99,7 +99,7 @@ for( i = 0; i < names.length ;i++){
 //выводит длинну всех имен в массиве
 
 let result = "";
-for( let i = 0; i < names.length ;i++){
+for (let i = 0; i < names.length; i++) {
     result = result + names[i]
 }
 console.log(result.length);
@@ -107,9 +107,9 @@ console.log(result.length);
 
 
 removeDuplicates([4, 6, 11, 6, 4, 19, 6]); //[4, 6 , 11, 19];
-removeDuplicates(["a", "a" , "c" , "b", "c" , "a"]);//["a". "b" , "c"];
+removeDuplicates(["a", "a", "c", "b", "c", "a"]);//["a". "b" , "c"];
 
-without([4, 5 , 1 , 1 , 7 , 1] , 1); //[4, 5 , 7];
-without(["a", "b,", "c", ],  "a"); //["b", "c"];
+without([4, 5, 1, 1, 7, 1], 1); //[4, 5 , 7];
+without(["a", "b,", "c",], "a"); //["b", "c"];
 
 
