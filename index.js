@@ -106,4 +106,10 @@ console.log(result.length);
 
 
 
+removeDuplicates([4, 6, 11, 6, 4, 19, 6]); //[4, 6 , 11, 19];
+removeDuplicates(["a", "a" , "c" , "b", "c" , "a"]);//["a". "b" , "c"];
+
+without([4, 5 , 1 , 1 , 7 , 1] , 1); //[4, 5 , 7];
+without(["a", "b,", "c", ],  "a"); //["b", "c"];
+
 
