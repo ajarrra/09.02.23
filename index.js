@@ -116,10 +116,9 @@ const array1 = [4, 6, 11, 6, 4, 19, 6];
 const uniqArray1 = [...new Set(array1)];
 console.log(uniqArray1);
 
-
 const array2 = ["a", "a", "c", "b", "c", "a"];
-const uniqArray2 = array2.filter((item, index) =>{
-return index === array2.indexOf (item);
+const uniqArray2 = array2.filter((item, index) => {
+    return index === array2.indexOf(item);
 })
 console.log(uniqArray2);
 
