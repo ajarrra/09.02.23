@@ -106,10 +106,21 @@ console.log(result.length);
 
 
 
-removeDuplicates([4, 6, 11, 6, 4, 19, 6]); //[4, 6 , 11, 19];
-removeDuplicates(["a", "a", "c", "b", "c", "a"]);//["a". "b" , "c"];
+//removeDuplicates([4, 6, 11, 6, 4, 19, 6]); //[4, 6 , 11, 19];
+//removeDuplicates(["a", "a", "c", "b", "c", "a"]);//["a". "b" , "c"];
 
-without([4, 5, 1, 1, 7, 1], 1); //[4, 5 , 7];
-without(["a", "b,", "c",], "a"); //["b", "c"];
+//without([4, 5, 1, 1, 7, 1], 1); //[4, 5 , 7];
+//without(["a", "b,", "c",], "a"); //["b", "c"];
+
+const array1 = [4, 6, 11, 6, 4, 19, 6];
+const uniqArray1 = [...new Set(array1)];
+console.log(uniqArray1);
+
+
+const array2 = ["a", "a", "c", "b", "c", "a"];
+const uniqArray2 = array2.filter((item, index) =>{
+return index === array2.indexOf (item);
+})
+console.log(uniqArray2);
 
 
